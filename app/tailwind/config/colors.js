@@ -24,4 +24,6 @@ export default {
   'grey-light': '#fdf7f6',
   'grey-dark': '#434343',
   'black': '#212121',
+  'violet-start': '#603b81',
+  'violet-end': '#23698F'
 };
