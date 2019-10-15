@@ -1,11 +1,11 @@
 @import 'tailwind';
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 html,
 body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 
   display: flex;
   flex-direction: column;
