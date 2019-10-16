@@ -25,5 +25,6 @@ export default {
   'grey-light': '#fdf7f6',
   'grey-dark': '#434343',
   'black': '#212121',
-  'violet': '#653881'
+  'violet': '#653881',
+  'brown': 'rgba(27, 27, 27, 0.78)'
 };
