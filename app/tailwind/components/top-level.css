@@ -17,7 +17,7 @@
 */
 
 body {
- @apply .bg-blue-light;
+ @apply .bg-white;
 }
 
 a {

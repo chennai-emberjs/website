@@ -19,11 +19,11 @@ export default {
   'blue-dark': '#156F9C',
   'blue-light': '#70AFD0',
   'red-dark': '#b14d38',
-  'yellow': '#fbc840',
+  'amber': '#df5e49',
+  'amber-light': '#ffbaae',
   'white': '#fdfdfd',
   'grey-light': '#fdf7f6',
   'grey-dark': '#434343',
   'black': '#212121',
-  'violet-start': '#603b81',
-  'violet-end': '#23698F'
+  'violet': '#653881'
 };
