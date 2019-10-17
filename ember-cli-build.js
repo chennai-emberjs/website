@@ -3,8 +3,21 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const crawl = require('prember-crawler');
+const isProduction = EmberApp.env() === 'production';
 
-module.exports = function(defaults) {
+const purgeCSS = {
+  module: require('@fullhuman/postcss-purgecss'),
+  options: {
+    content: [
+      // add extra paths here for components/controllers which include tailwind classes
+      './app/index.html',
+      './app/templates/**/*.hbs'
+    ],
+    defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
+  }
+}
+
+module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     postcssOptions: {
       compile: {
@@ -21,7 +34,9 @@ module.exports = function(defaults) {
               ]
             }
           },
-          require('tailwindcss')('./config/tailwind.config.js')
+          require('postcss-import'),
+          require('tailwindcss')('./config/tailwind.config.js'),
+          ...isProduction ? [purgeCSS] : []
         ]
       }
     },
