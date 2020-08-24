@@ -1,66 +1,39 @@
-<div class="hero-section relative mt-12 min-h-screen">
-  <div class="text-center pt-20
-      md:pt-32 pb-16">
-    <div class="container mx-auto inline-block my-20
-        md:my-24">
-      <div class="mb-2 mx-auto inline-block font-semibold">
-        <span class="uppercase text-white text-4xl
-            md:text-5xl">
-          EmberJS
-          <span class="inline md:hidden lg:hidden">&nbsp;</span>
-          Chennai
-          <span class="hidden sm:inline">Chapter</span>
-        </span>
-        <div class="clearfix"></div>
-        <div class="text-amber-light inline-block float-left font-normal text-xs
-            sm:text-sm
-            md:text-xl
-            lg:text-3xl">
-          29th February 2020
+<div class="hero-section relative overflow-hidden">
+  <div class="container mx-auto flex flex-col items-center justify-center h-full -mt-24 sm:-mt-40 lg:-mt-48 xl:flex-row xl:justify-between">
+    <div class="hero-text-left flex flex-col items-center justify-center">
+      <div class="text text-white uppercase text-5xl font-bold text-center leading-tight">
+        EmberJS Chennai
+      </div>
+
+      <div class="flex flex-col w-full items-center sm:flex-row sm:justify-between xl:flex-col">
+        <div class="text-amber-medium">
+          September 11th, 2020
         </div>
-        <div class="text-amber-light inline-block float-right font-normal text-xs
-            sm:text-sm
-            md:text-xl
-            lg:text-3xl">
-          Freshworks, Chennai, IN
+
+        <div class="text-amber-medium m-1 xl:hidden">
+          Virtual Meetup
         </div>
       </div>
     </div>
-    <div class="clearfix"></div>
-    <a class="btn primary-btn"
-        href="https://www.meetup.com/EmberJS-Chennai/events/268053266/" target="_blank" rel="noopener">
-      RSVP for meetup
-    </a>
+
+    <div class="rsvp-btn-wrapper mt-8 z-10">
+      <img src="assets/images/zoey.png" alt="zoey image" class="w-16 hidden xl:block">
+      <a class="rsvp-btn btn bg-amber text-white rounded-lg border-2 border-soft-amber hover:bg-ember"
+          href="https://www.meetup.com/EmberJS-Chennai/events/272592887/" target="_blank" rel="noopener">
+        RSVP for meetup
+      </a>
+    </div>
   </div>
 
-  <img class="hero-image absolute bottom-0 w-full z-10
-      md:z-negative sm:z-negative"
-    src="assets/images/hero-central-bg.png"
+  <img class="hero-image absolute bottom-0 w-full sm:px-2 lg:px-24 xl:px-5 hidden xl:block"
+    src="assets/images/hero-bg.svg"
+    alt="hero-image">
+  <img class="hero-image absolute bottom-0 w-full sm:px-2 lg:px-24 xl:px-5 xl:hidden"
+    src="assets/images/chennai-bg-big.png"
     alt="hero-image">
 </div>
 
-<div class="hero-footer hidden
-    md:block">
-  <svg viewBox="0 0 1441 85" fill="none" xmlns="http://www.w3.org/2000/svg" class="pin-b h-32 z-10 w-full h-auto">
-    <path d="M0 38.5L459.5 0L1176 46L1441 0V85H706H0V38.5Z" fill="#FDFDFD" />
-  </svg>
-</div>
-
-
-
-{{!-- <div class="mt-12 w-screen">
-  <div class="container mx-auto p-5 text-xl">
-    <p class="mb-5">
-      Hello Chennai,
-    </p>
-    <p>
-      We look forward to our second EmberJS meet-up on November 9th, 2019 (Saturday).
-      Join us at Freshworks office at 9 AM for some amazing talks.
-    </p>
-  </div>
-</div> --}}
-
-<div class="container mx-auto flex flex-col items-center p-10 bg-white">
+<div class="mx-auto flex flex-col items-center p-10 bg-white xl:-mt-16 xl:z-10">
   <h3 class="mb-10 mt-5">Featuring Talks By</h3>
 
   <div class="flex-full-center flex-wrap">

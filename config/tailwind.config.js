@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   theme: {
     colors: {
@@ -13,8 +15,10 @@ module.exports = {
       'violet': '#653881',
       'brown': 'rgba(27, 27, 27, 0.78)',
       'amber': '#df5e49',
+      'soft-amber': '#d8cdb9',
       'amber-light': '#ffbaae',
       'amber-medium': '#E39774',
+      'ember': '#E04E39',
       'dark-teal': '#326273'
     },
     extend: {
@@ -22,6 +26,7 @@ module.exports = {
         'negative': -1,
       },
       borderRadius: {
+        ...defaultTheme.borderRadius,
         xl: '1em'
       }
     },
