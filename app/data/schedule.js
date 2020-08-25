@@ -4,7 +4,7 @@ export default [
     speaker: 'Rajasegar Chandiran',
     handle: '@rajasegar_c',
     profileLink: 'https://twitter.com/rajasegar_c',
-    profilePic: 'meetup-4-sept-2020/rajasegar.jpg',
+    profilePic: 'assets/images/meetup-4-sept-2020/rajasegar.jpg',
     startTime: "- am",
     endTime: "- am",
     title: "Building Bridges to the DOM with Modifiers"
@@ -14,7 +14,7 @@ export default [
     speaker: 'Kanalveli RA',
     handle: '@kaelinralav',
     profileLink: 'https://twitter.com/kaelinralav',
-    profilePic: 'meetup-4-sept-2020/kanal.jpg',
+    profilePic: 'assets/images/meetup-4-sept-2020/kanal.jpg',
     startTime: "- am",
     endTime: "- am",
     title: "Sequential rendering with EmberJS"
@@ -24,7 +24,7 @@ export default [
     speaker: 'Bhuvaneshwari K',
     handle: '',
     profileLink: '',
-    profilePic: 'meetup-4-sept-2020/bk.png',
+    profilePic: 'assets/images/meetup-4-sept-2020/bk.png',
     startTime: "- am",
     endTime: "- am",
     title: "Contextual Component Design"
@@ -40,7 +40,7 @@ export default [
     speaker: 'Gopi Srinivasan',
     handle: '@igopisrinivasan',
     profileLink: 'https://www.linkedin.com/in/igopisrinivasan/',
-    profilePic: 'meetup-4-sept-2020/gopi.jpg',
+    profilePic: 'assets/images/meetup-4-sept-2020/gopi.jpg',
     startTime: "- am",
     endTime: "- am",
     title: "ProtractorJS, Puppeteer, NightWatchJS and Cypress"
@@ -50,7 +50,7 @@ export default [
     speaker: 'Saravana Kumar V',
     handle: '',
     profileLink: '',
-    profilePic: 'meetup-4-sept-2020/sk.jpg',
+    profilePic: 'assets/images/meetup-4-sept-2020/sk.jpg',
     startTime: "- am",
     endTime: "- am",
     title: "Degrading Ember Apps gracefully when offline"
@@ -60,7 +60,7 @@ export default [
     speaker: 'Monisha',
     handle: '',
     profileLink: '',
-    profilePic: 'meetup-4-sept-2020/monisha.png',
+    profilePic: 'assets/images/meetup-4-sept-2020/monisha.png',
     startTime: "- am",
     endTime: "- am",
     title: "Progressive Web App using Ember"
