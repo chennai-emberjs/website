@@ -7,22 +7,6 @@ const isProduction = process.env.EMBER_ENV === 'production';
 
 module.exports = function(defaults) {
 
-  const purgeCSSConfig = {
-    module: require('@fullhuman/postcss-purgecss'),
-    options: {
-      content: [
-        './app/index.html',
-        './app/templates/**/*.hbs',
-        './app/components/**/*.hbs' // New component template co-location
-      ],
-      whitelist: [],
-      whitelistPatterns: [],
-
-      // Common extractor for tailwind css class names in the provided content
-      defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
-    }
-  };
-
   let app = new EmberApp(defaults, {
     postcssOptions: {
       compile: {
@@ -39,8 +23,7 @@ module.exports = function(defaults) {
               ]
             }
           },
-          require('tailwindcss')('./config/tailwind.config.js'),
-          purgeCSSConfig
+          require('tailwindcss')('./config/tailwind.config.js')
         ]
       }
     },

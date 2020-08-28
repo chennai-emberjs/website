@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const isProduction = process.env.EMBER_ENV === 'production';
 
 module.exports = {
   theme: {
@@ -38,5 +39,16 @@ module.exports = {
   variants: {
     borderWidth: ['responsive', 'last']
   },
-  plugins: []
+  plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
+  purge: {
+    enabled: isProduction,
+    content: [
+    './app/index.html',
+    './app/templates/**/*.hbs',
+    './app/components/**/*.hbs'
+    ]
+  },
 };
