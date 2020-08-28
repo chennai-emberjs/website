@@ -11,7 +11,7 @@ module.exports = function(/* environment, appConfig */) {
     "background_color": "#70afd0",
     "display": "standalone",
     "Scope": "/",
-    "start_url": "/schedule",
+    "start_url": "/",
     "icons": [
       {
         "src": "assets/manifest-icons/icon-72x72.png",
