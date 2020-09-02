@@ -31,9 +31,18 @@
           </LinkTo>
         </div> --}}
         <div {{on "click" this.toggleExpanded}}>
-          <LinkTo
-            @route="about"
-            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
+          <a
+            href="https://www.meetup.com/EmberJS-Chennai/"
+            target="_blank"
+            rel="noopener"
+            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-8"
+          >
+            Join Us
+          </a>
+        </div>
+        <div {{on "click" this.toggleExpanded}}>
+          <LinkTo @route="about"
+            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow">
             About
           </LinkTo>
         </div>
