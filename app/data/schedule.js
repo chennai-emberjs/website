@@ -24,7 +24,7 @@ export default [
     speaker: 'Bhuvaneshwari K',
     handle: '',
     profileLink: '',
-    profilePic: 'assets/images/meetup-4-sept-2020/bk.png',
+    profilePic: 'assets/images/meetup-4-sept-2020/bk.jpg',
     startTime: "- am",
     endTime: "- am",
     title: "Contextual Component Design"
